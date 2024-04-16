@@ -1,4 +1,4 @@
-/* By https://github.com/DIEGO-OFC/DORRAT-BOT-MD */
+/* By https://www.instagram.com/alcashop.ff */
 
 const handler = async (m, {conn, text}) => {
   m.reply(`*╔═══════════════════════════*\n➢ *"${pickRandom(global.piropo)}"*\n*╚═══════════════════════════*`);
