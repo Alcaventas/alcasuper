@@ -19,15 +19,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `[‼️]𝗖𝗼𝗺�
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ —◉
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ Cʀᴇᴀᴅᴏʀ: ᴛᴀʟʟʏᴄʟᴇʀᴋ
-┣⟣☯︎ Nᴜᴍᴇʀᴏ: +505 58124470
-┣⟣☯︎ Fᴇᴄʜᴀ: ${date}
-┣⟣☯︎ Aᴄᴛɪᴠᴏ: ${uptime}
-┣⟣☯︎ Rᴇɢɪsᴛʀᴀᴅᴏs: ${rtotalreg}
-┗━━━━━━━━━━━━━━━━━━━━┛
+    const str = `
 ⚠️ 𝑬𝒔𝒕𝒆 𝑪𝒐𝒎𝒂𝒏𝒅𝒐 𝑵𝒐 𝑬𝒔 𝑷𝒆𝒓𝒎𝒊𝒕𝒊𝒅𝒐 𝑷𝒂𝒓𝒂 𝑳𝒐𝒔 𝑵𝒊𝒏̃𝒐𝒔 𝑫𝒆 𝑴𝒆𝒏𝒐𝒓𝒆𝒔 𝑫𝒆 𝑬𝒅𝒂𝒅 ⚠️
 ┏━━━━━━━━━━━━━━━━┓
 ┃ < 𝐂𝐨𝐧𝐭𝐞𝐧𝐢𝐝𝐨 +18 />
