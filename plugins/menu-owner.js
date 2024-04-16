@@ -21,17 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━━━━━━━━━━━┓
-┃⏤͟͟͞͞Lᴏʙᴏ - Bᴏᴛ - Lɪᴛᴇ
-┗━━━━━━━━━━━━
-┣⟣☯︎ 𝐸𝑛 𝐺𝑟𝑢𝑝𝑜𝑠: 𝙾𝚆𝙽𝙴𝚁
-┣⟣☯︎ 𝐶𝑟𝑒𝑎𝑑𝑜𝑟: 𝙻𝙳 𝙻𝙾𝙱𝙾 𝙳𝙸𝙾𝚂
-┣⟣☯︎ 𝑁𝑢𝑚𝑒𝑒𝑜: +505 7639 0682
-┣⟣☯︎ 𝐹𝑒𝑐ℎ𝑎: ${date}
-┣⟣☯︎ 𝐴𝑐𝑡𝑖𝑣𝑖𝑑𝑎𝑑: ${uptime}
-┣⟣☯︎ 𝑈𝑠𝑢𝑎𝑟𝑖𝑜𝑠: ${rtotalreg}
-┗━━━━━━━━━━━━━━━━━━━┛
-
+    const str = `
 ┏━━━━━━━━━━━━━━━━┓
 ┃⏤͟͟͞͞𝙊𝙒𝙉𝙀𝙍𝙎 𝙔 𝗦𝗧𝗔𝗙𝗙
 ┗━━━━━━━━━━━━
