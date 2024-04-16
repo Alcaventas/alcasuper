@@ -7,9 +7,9 @@ const handler = async (m, {conn, participants, command, usedPrefix}) => {
     const mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid[0] ? m.message.extendedTextMessage.contextInfo.mentionedJid[0] : m.message.extendedTextMessage.contextInfo.participant;
     if (conn.user.jid.includes(mentioned)) return m.reply('[🚫] 𝗡𝗢 𝗣𝗨𝗘𝗗𝗢 𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗥𝗠𝗘 𝗔 𝗠𝗜 𝗠𝗜𝗦𝗠𝗢, 𝗦𝗔𝗖𝗔𝗠𝗘 𝗠𝗔𝗡𝗨𝗔𝗟𝗠𝗘𝗡𝗧𝗘.');
     const responseb = await conn.groupParticipantsUpdate(m.chat, [mentioned], 'remove');
-    const exitoso1 = `*@${mentioned.split('@')[0]} ғᴜᴇ ᴇʟɪᴍɪɴᴀᴅᴏ ᴇxɪᴛᴏsᴀᴍᴇɴᴛᴇ ᴅᴇʟ ɢʀᴜᴘᴏ*`;
-    const error1 = `*@${mentioned.split('@')[0]} ᴇs ᴇʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ, ɴᴏ ᴘᴜᴇᴅᴏ ᴇʟɪᴍɪɴᴀʀ ᴀʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ*`;
-    const error2 = `*@${mentioned.split('@')[0]} ʏᴀ ʜᴀ sɪᴅᴏ ᴇʟɪᴍɪɴᴀᴅᴏ ᴏ ʜᴀ ᴀʙᴀɴᴅᴏɴᴀᴅᴏ ᴇʟ ɢʀᴜᴘᴏ*`;
+    const exitoso1 = `*@${mentioned.split('@')[0]} 𝙀𝙓𝙋𝙐𝙇𝙎𝘼𝘿𝙊 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 ✅*`;
+    const error1 = `*@${mentioned.split('@')[0]} 𝙀𝙎 𝙀𝙇 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙉𝙊 𝙋𝙐𝙀𝘿𝙊 𝙀𝙓𝙋𝙐𝙇𝙎𝘼𝙍𝙇𝙊 :(*`;
+    const error2 = `*@${mentioned.split('@')[0]} 𝙔𝘼 𝙃𝘼 𝙎𝙄𝘿𝙊 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝘿𝙊 𝙊 𝘼𝘽𝘼𝙉𝘿𝙊𝙉𝙊 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙋𝙊𝙍 𝙁𝙀@*`;
     if (responseb[0].status === '200') m.reply(exitoso1, m.chat, {mentions: conn.parseMention(exitoso1)});
     else if (responseb[0].status === '406') m.reply(error1, m.chat, {mentions: conn.parseMention(error1)});
     else if (responseb[0].status === '404') m.reply(error2, m.chat, {mentions: conn.parseMention(error2)});
