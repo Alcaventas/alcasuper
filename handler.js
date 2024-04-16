@@ -1180,9 +1180,9 @@ export async function handler(chatUpdate) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
 ╭━━━━━━━✦✗✦━━━━━━━━╮
- 🚫 *Usuario Baneado* 🚫
-*Aviso*  ${messageNumber}/Total: 3)
-${user.bannedReason ? `\n*Motivo:* 
+ 🚫 *𝙐𝙨𝙪𝙖𝙧𝙞𝙤 𝘽𝙖𝙣𝙚𝙖𝙙𝙤* 🚫
+*𝘼𝙫𝙞𝙨𝙤*  ${messageNumber}/𝙏𝙤𝙩𝙖𝙡: 3)
+${user.bannedReason ? `\n*𝙈𝙤𝙩𝙞𝙫𝙤:* 
 ${user.bannedReason}` : '*Motivo:* Sin Especificar'}
 _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Propietario Del Bot Y Apelar La Suspención._
 *Intenta Quitar El Baneo Aqui:* Wa.me/50558124470
@@ -1342,7 +1342,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
             }
           }
           if (m.limit) {
-            m.reply(+m.limit + ' 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴(𝚂) 𝚄𝚂𝙰𝙳𝙾(𝚂)');
+            m.reply(+m.limit + ' 𝘿𝙄𝘼𝙈𝘼𝙉𝙏𝙀𝙎(𝙎) 𝙐𝙎𝘼𝘿𝙊𝙎(𝙎)');
           }
         }
         break;
@@ -1547,16 +1547,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
-    owner: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
-    mods: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑴𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
-    premium: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺,𝑺𝑻𝑨𝑭𝑭 𝒀 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 𝑽𝑰𝑷 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
-    group: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑫𝑶 𝑺𝑶𝑳𝑶 𝑬𝑺 𝑼𝑺𝑨𝑩𝑳𝑬 𝑬𝑵 𝑮𝑹𝑼𝑷𝑶𝑺',
-    private: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑼𝑺𝑨 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑨𝑳 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑻𝑬 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
-    admin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑳𝑶𝑺𝑰𝑬𝑵𝑻𝑶 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑨𝑫𝑴𝑰𝑵𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
-    botAdmin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑷𝑨𝑹𝑨 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑹 𝑳𝑨 𝑨𝑪𝑪𝑰𝑶𝑵 𝑫𝑬𝑩𝑶 𝑻𝑬𝑵𝑬𝑹 𝑷𝑶𝑫𝑬𝑹 𝑬𝑵 𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
+    rowner: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝘾𝙍𝙀𝘼𝘿𝙊𝙍',
+    owner: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝘾𝙍𝙀𝘼𝘿𝙊𝙍',
+    mods: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑴𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
+    premium: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝘾𝙍𝙀𝘼𝘿𝙊𝙍',
+    group: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑫𝑶 𝑺𝑶𝑳𝑶 𝑬𝑺 𝑼𝑺𝑨𝑩𝑳𝑬 𝑬𝑵 𝑮𝑹𝑼𝑷𝑶𝑺',
+    private: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑼𝑺𝑨 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑨𝑳 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑻𝑬 𝑫𝑬 𝘾𝙍𝙀𝘼𝘿𝙊𝙍',
+    admin: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑳𝑶𝑺𝑰𝑬𝑵𝑻𝑶 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑨𝑫𝑴𝑰𝑵𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
+    botAdmin: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑷𝑨𝑹𝑨 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑹 𝑳𝑨 𝑨𝑪𝑪𝑰𝑶𝑵 𝑫𝑬𝑩𝑶 𝑻𝑬𝑵𝑬𝑹 𝑷𝑶𝑫𝑬𝑹 𝑬𝑵 𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
     unreg: '[ 🪁𝗡𝗼 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🪁 ]\n\n*—𝑉𝑒𝑟𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒 𝑢𝑠𝑎𝑟 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒*\n*ᴇᴊᴇᴍᴘʟᴏ*\n➣#reg nombre.edad',
-    restrict: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝑳𝑶𝑺 𝑶𝑾𝑵𝑬𝑹𝑺 𝒀 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
+    restrict: '[⛔️𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⛔️] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝘼𝙇𝘾𝘼𝘽𝙊𝙏',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '📍ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ📍', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
